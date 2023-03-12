@@ -6,7 +6,6 @@
 //   <p>Background color: <span class="color">-</span></p>
 //   <button type="button" class="change-color">Change color</button>
 // </div>
-
 // Для генерування випадкового кольору використовуй функцію getRandomHexColor.
 
 
@@ -15,7 +14,6 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
-
 
 function changeBackgroundColor() {
   const color = getRandomHexColor();
