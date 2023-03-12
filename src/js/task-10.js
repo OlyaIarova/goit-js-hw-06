@@ -14,7 +14,6 @@
 // Створи функцію destroyBoxes(), яка очищає вміст div#boxes, 
 //у такий спосіб видаляючи всі створені елементи.
 
-
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
@@ -49,5 +48,3 @@ createButton.addEventListener('click', () => {
 destroyButton.addEventListener('click', () => {
   destroyBoxes();
 });
-
-
